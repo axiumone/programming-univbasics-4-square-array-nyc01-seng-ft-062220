@@ -1,4 +1,4 @@
 def square_array(array)
 
-  new_arr = array.select { |num| num**2}
+  new_arr = array.map { |num| num**2}
 end
